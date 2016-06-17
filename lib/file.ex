@@ -11,7 +11,7 @@ defmodule Riismi.File do
     end
   end
 
-  @spec watch_for_inventory_files(atom())::no_return()
+  @spec watch_for_inventory_files(pid())::no_return()
   def watch_for_inventory_files(fswatcher) when is_pid(fswatcher) do
     :fs.subscribe(fswatcher)
 

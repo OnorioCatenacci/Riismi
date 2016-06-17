@@ -2,7 +2,7 @@ use Mix.Config
 
 config :riismi, Riismi.Repo,
   adapter: Ecto.Adapters.Postgres,
-  database: "riismi",
+  database: "riismi_dev",
   username: "postgres",
   password: "postgres"
 
