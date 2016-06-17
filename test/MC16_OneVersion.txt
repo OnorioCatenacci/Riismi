@@ -1,0 +1,13 @@
+MC16
+04:03 PM
+
+
+Version=3.5.13.14260
+
+
+Name=Microsoft Visual Studio 2010 Service Pack 1
+Version=10.0.40219
+
+
+Name=Microsoft Application Error Reporting
+Version=12.0.6012.5000
