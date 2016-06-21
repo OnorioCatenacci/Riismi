@@ -12,7 +12,7 @@ defmodule Riismi.Inventory do
 
   def changeset(inventory, params \\ :empty) do
     inventory
-    |> cast(params, ~w(machine_id, sw_name, sw_version, new_record), ~w())
+    |> cast(params, ~w(machine_id sw_name sw_version new_record), ~w())
     |> validate_required([:machine_id, :sw_name, :sw_version, :new_record])
   end
   

@@ -7,4 +7,6 @@ config :riismi, Riismi.Repo,
   password: "postgres"
 
 config :riismi, datafile_path: "/users/ocatenacci/riismi/test"
+config :riismi,  processedfile_path: "/users/ocatenacci/riismi/test/processed"
+
 config :logger, level: :info

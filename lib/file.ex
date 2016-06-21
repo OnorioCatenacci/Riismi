@@ -1,29 +1,26 @@
 defmodule Riismi.File do
-  @file_directory Riismi.datafile_path()
+  @file_directory Riismi.datafile_path
+  @processedfile_directory Riismi.processedfile_path
+  @inventory_file_mask "*.txt"
 
-  @spec start_watcher(Path.t)::pid()
-  def start_watcher(path \\ @file_directory) do
-    case :fs.start_link(:fswatcher, Path.relative_to_cwd(path)) do
-      {:ok, fswatcher} ->
-        fswatcher
-      {:error, {:already_started, fswatcher}} ->
-        fswatcher
-    end
-  end
+#  def process_inventory_files do
+#    Path.wildcard("#{@file_directory}/#{@inventory_file_mask}")
+#    |> Enum.map(fn (path) -> Path.basename(path) end)
+#    |> add_inventory_records(all_inventory_files)
+#  end
 
-  @spec watch_for_inventory_files(pid())::no_return()
-  def watch_for_inventory_files(fswatcher) when is_pid(fswatcher) do
-    :fs.subscribe(fswatcher)
+#  def move_inventory_file(inventory_file) do
+#    source = "#{@file_directory}/#{inventory_file}"
+#    {:ok, _bytecount} = File.copy(source, "#{@processedfile_directory}/#{inventory_file}")
+#    File.rm(source)
+#  end
+  
 
-    receive do
-      {_watcher_process, {:fs, :file_event}, {changedFile, [:created]}} ->
-        IO.puts("#{changedFile} was created")
-      {_watcher_process, {:fs, :file_event}, {changedFile, [:modified]}} ->
-        IO.puts("#{changedFile} was modified")
-      {_watcher_process, {:fs, :file_event}, {changedFile, [:removed]}} ->
-        IO.puts("#{changedFile} was deleted")
-    end
-    watch_for_inventory_files(fswatcher)
-  end
-
+  def add_inventory_records([]), do: nil
+#  def add_inventory_records([inventory_file|tail]) do
+#    Riismi.Parser.get_name_version_pairs(inventory_file)
+#    |> Riismi.Db.insert_new_records
+#    move_inventory_file(inventory_file)
+#    add_inventory_records(tail)
+#  end
 end

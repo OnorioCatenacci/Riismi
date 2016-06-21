@@ -7,4 +7,6 @@ config :riismi, Riismi.Repo,
   password: "postgres"
 
 config :riismi, datafile_path: System.get_env("RMI_DATA_PATH")
+config :riismi,  processedfile_path: System.get_env("RMI_PROCESSEDFILE_PATH")
+
 

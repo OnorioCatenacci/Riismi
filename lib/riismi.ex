@@ -2,6 +2,7 @@ defmodule Riismi do
   use Application
 
   def datafile_path, do: Application.get_env(:riismi, :datafile_path)
+  def processedfile_path, do: Application.get_env(:riismi, :processedfile_path)
 
   # See http://elixir-lang.org/docs/stable/elixir/Application.html
   # for more information on OTP Applications

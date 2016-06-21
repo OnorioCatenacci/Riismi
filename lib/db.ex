@@ -5,29 +5,36 @@ defmodule Riismi.Db do
     Enum.each(record_list, fn(inventory_record) -> Riismi.Repo.insert(inventory_record) end)
   end
 
-  defp get_inventory_record(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
+  defp get_inventory_records(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
     Riismi.Inventory
     |> Ecto.Query.where(machine_id: ^machine)
     |> Ecto.Query.where(sw_name: ^sw_name)
   end
 
+  def get_inventory_record(machine, sw_name, sw_version) when is_binary(machine) and is_binary(sw_name) and is_binary(sw_version) do
+    Riismi.Inventory
+    |> Ecto.Query.where(machine_id: ^machine)
+    |> Ecto.Query.where(sw_name: ^sw_name)
+    |> Ecto.Query.where(sw_version: ^sw_version)
+    |> Riismi.Repo.one!
+  end
 
   #Check by machine and software name
   def inventory_record_exists?(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
-    get_inventory_record(machine, sw_name)
+    get_inventory_records(machine, sw_name)
     |> Riismi.Repo.all
     |> length
-    |> Kernel.===(1)  #true if there is one (and only one) item in the list.
+    |> Kernel.>=(1)  #true if there is at least one item in the list.
   end
 
   #Check by machine, software name and version
   def inventory_record_exists?(machine, sw_name, sw_version) when is_binary(machine) and is_binary(sw_name) and is_binary(sw_version) do
     if inventory_record_exists?(machine, sw_name) do
-      get_inventory_record(machine, sw_name)
+      get_inventory_records(machine, sw_name)
       |> Ecto.Query.where(sw_version: ^sw_version)
       |> Riismi.Repo.all
       |> length
-      |> Kernel.===(1)
+      |> Kernel.==(1)
     else
       false
     end
@@ -39,12 +46,15 @@ defmodule Riismi.Db do
 #  updated_at: #Ecto.DateTime<2016-06-15 17:49:19>},
   
     
-  def mark_all_records_as_old() do
-    all_new_recs = Riismi.Inventory |> Ecto.Query.where(new_record: :true) |> Riismi.Repo.all
-    Enum.each(all_new_recs, fn(ir) ->
-      %{ir | new_record: false}
-      |> Riismi.Inventory.changeset
+  def mark_all_records_as_old do
+    Riismi.Inventory |>
+      Ecto.Query.where(new_record: ^true) |>
+      Riismi.Repo.all |>
+    Enum.each(fn(inventory_record) ->
+      Riismi.Inventory.changeset(inventory_record, %{new_record: false})
       |> Riismi.Repo.update
     end)
   end
+
+    
 end

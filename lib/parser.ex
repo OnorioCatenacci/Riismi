@@ -1,7 +1,7 @@
 defmodule Riismi.Parser do
   @sw_name "sw_name"
   @sw_version "sw_version"
-  @name_regex ~r/^Name=(?<#{@sw_name}>([\w|\w-]+ *)*)/
+  @name_regex ~r/^Name=(?<#{@sw_name}>([\w|\w-|\w\+]+ *)*)/
   @version_regex ~r/^Version=(?<#{@sw_version}>\d+.\d+.\d+(.\d*)?)\r/
   @time_regex ~r/(?<time>^\d{2}:\d{2} [A|P]M\s*$)/
   

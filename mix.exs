@@ -11,17 +11,16 @@ defmodule Riismi.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :postgrex, :fs],
+    [applications: [:logger, :postgrex],
      mod: {Riismi, []}]
   end
 
   defp deps do
     [
-      {:fs, git: "https://github.com/synrc/fs"},
       {:ecto, "~> 2.0.0-rc.6"},
       {:postgrex, "~> 0.11"},
       {:earmark, "~> 0.2.1", only: :dev},
-      {:ex_doc, "~> 0.11.4", only: :dev}
+      {:ex_doc, "~> 0.11.4", only: :dev},
     ]
   end
 end
