@@ -1,0 +1,348 @@
+MC20-PC
+Thu 06/02/2016 
+10:43 AM
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=6.0.3.0
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Dell Backup and Recovery Manager
+Version=1.3.1
+
+
+Name=Scanner Controller Web Client
+Version=1.7.626
+
+
+Name=SQLiteManager
+Version=4.3.6
+
+
+Name=Java 8 Update 51
+Version=8.0.510
+
+
+Name=Java 8 Update 51 (64-bit)
+Version=8.0.510
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft .NET Framework 4.5.2
+Version=4.5.51209
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20041
+
+
+Name=Google Apps Migration For Microsoft Outlookr 4.0.29.9
+Version=4.0.29.9
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Intelr PROSet/Wireless WiMAX Software
+Version=6.01.0000
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=64 Bit HP CIO Components Installer
+Version=8.2.1
+
+
+Name=Prey Anti-Theft
+Version=1.4.2
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=AirWatch Protection Agent
+Version=1.2.0.6
+
+
+Name=Dell Digital Delivery
+Version=1.7.4501.0
+
+
+Name=Java Auto Updater
+Version=2.8.51.16
+
+
+
+
+MC20-PC
+Fri 06/03/2016 
+02:29 PM
+MC20-PC
+Fri 06/03/2016 
+03:15 PM
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=6.0.3.0
+
+
+Name=64 Bit HP CIO Components Installer
+Version=20.2.1
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Dell Backup and Recovery Manager
+Version=1.3.1
+
+
+Name=Scanner Controller Web Client
+Version=1.7.626
+
+
+Name=SQLiteManager
+Version=4.3.6
+
+
+Name=Java 8 Update 51
+Version=8.0.510
+
+
+Name=Java 8 Update 51 (64-bit)
+Version=8.0.510
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft .NET Framework 4.5.2
+Version=4.5.51209
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20045
+
+
+Name=Google Apps Migration For Microsoft Outlookr 4.0.29.9
+Version=4.0.29.9
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Intelr PROSet/Wireless WiMAX Software
+Version=6.01.0000
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=Prey Anti-Theft
+Version=1.4.2
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=AirWatch Protection Agent
+Version=1.2.0.6
+
+
+Name=Dell Digital Delivery
+Version=1.7.4501.0
+
+
+Name=Java Auto Updater
+Version=2.8.51.16
+
+
+
+
+MC20-PC
+Tue 06/07/2016 
+04:41 PM
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=6.0.3.0
+
+
+Name=64 Bit HP CIO Components Installer
+Version=20.2.1
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Dell Backup and Recovery Manager
+Version=1.3.1
+
+
+Name=Scanner Controller Web Client
+Version=1.7.626
+
+
+Name=SQLiteManager
+Version=4.3.6
+
+
+Name=Java 8 Update 51
+Version=8.0.510
+
+
+Name=Java 8 Update 51 (64-bit)
+Version=8.0.510
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft .NET Framework 4.5.2
+Version=4.5.51209
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20045
+
+
+Name=Google Apps Migration For Microsoft Outlookr 4.0.29.9
+Version=4.0.29.9
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Intelr PROSet/Wireless WiMAX Software
+Version=6.01.0000
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=Prey Anti-Theft
+Version=1.4.2
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=AirWatch Protection Agent
+Version=1.2.0.6
+
+
+Name=Dell Digital Delivery
+Version=1.7.4501.0
+
+
+Name=Java Auto Updater
+Version=2.8.51.16
+
+
+
+

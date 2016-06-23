@@ -1,16 +1,32 @@
 defmodule Riismi.Db do
   require Ecto.Query
 
+  @spec insert_new_records([%Riismi.Inventory{}])::no_return()
   def insert_new_records(record_list) when is_list(record_list) do
-    Enum.each(record_list, fn(inventory_record) -> Riismi.Repo.insert(inventory_record) end)
+    Enum.each(record_list, fn(inventory_record) ->
+      %Riismi.Inventory{machine_id: machine, sw_name: sw_name, sw_version: sw_version} = inventory_record
+      
+      cond do
+        software_is_different_version?(machine, sw_name, sw_version) ->
+          update_software_version(machine, sw_name, sw_version)
+        inventory_record_exists?(machine, sw_name, sw_version) ->
+          get_inventory_record(machine, sw_name, sw_version)
+          |> mark_record_as_old
+        :otherwise ->
+          Riismi.Repo.insert(inventory_record)
+      end
+      
+      end)
   end
 
-  defp get_inventory_records(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
+  @spec get_inventory_records(binary, binary)::Ecto.Query.t
+  def get_inventory_records(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
     Riismi.Inventory
     |> Ecto.Query.where(machine_id: ^machine)
     |> Ecto.Query.where(sw_name: ^sw_name)
   end
 
+  @spec get_inventory_record(binary, binary, binary)::%Riismi.Inventory{}
   def get_inventory_record(machine, sw_name, sw_version) when is_binary(machine) and is_binary(sw_name) and is_binary(sw_version) do
     Riismi.Inventory
     |> Ecto.Query.where(machine_id: ^machine)
@@ -20,6 +36,7 @@ defmodule Riismi.Db do
   end
 
   #Check by machine and software name
+  @spec inventory_record_exists?(binary, binary)::boolean
   def inventory_record_exists?(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
     get_inventory_records(machine, sw_name)
     |> Riismi.Repo.all
@@ -28,9 +45,12 @@ defmodule Riismi.Db do
   end
 
   #Check by machine, software name and version
+  @spec inventory_record_exists?(binary, binary, binary)::boolean
   def inventory_record_exists?(machine, sw_name, sw_version) when is_binary(machine) and is_binary(sw_name) and is_binary(sw_version) do
     if inventory_record_exists?(machine, sw_name) do
-      get_inventory_records(machine, sw_name)
+      Riismi.Inventory
+      |> Ecto.Query.where(machine_id: ^machine)
+      |> Ecto.Query.where(sw_name: ^sw_name)
       |> Ecto.Query.where(sw_version: ^sw_version)
       |> Riismi.Repo.all
       |> length
@@ -39,22 +59,58 @@ defmodule Riismi.Db do
       false
     end
   end
+
+  defp software_is_different_version?(machine, sw_name, sw_version) when is_binary(machine) and is_binary(sw_name) and is_binary(sw_version) do
+    inventory_record_exists?(machine, sw_name) and not inventory_record_exists?(machine, sw_name, sw_version)
+  end
+
+  @spec set_sw_version(binary, binary)::binary
+  def set_sw_version(old_version, new_version) do
+      case Riismi.Parser.compare_versions(old_version, new_version) do
+        :gt ->
+          old_version
+        :lt ->
+          new_version
+        :eq ->
+          new_version
+    end
+  end
+
+  @spec get_version_from_inventory_record([%Riismi.Inventory{}])::binary
+  defp get_version_from_inventory_record([%Riismi.Inventory{sw_version: old_sw_version}|_] = _r), do: old_sw_version
   
-      
-#   machine_id: "MC16",
-#  new_record: true, sw_name: "hppCLJCM2320", sw_version: "003.001.00097",
-#  updated_at: #Ecto.DateTime<2016-06-15 17:49:19>},
-  
+  @spec update_software_version(binary, binary, binary)::no_return()
+  def update_software_version(machine, sw_name, new_sw_version) do
+    record =
+      get_inventory_records(machine, sw_name)
+      |> Riismi.Repo.all
     
-  def mark_all_records_as_old do
-    Riismi.Inventory |>
-      Ecto.Query.where(new_record: ^true) |>
-      Riismi.Repo.all |>
-    Enum.each(fn(inventory_record) ->
-      Riismi.Inventory.changeset(inventory_record, %{new_record: false})
+    version = set_sw_version(get_version_from_inventory_record(record),new_sw_version)
+    Enum.each(record, fn (r) ->
+      Riismi.Inventory.changeset(r, %{new_record: true, sw_version: version})
       |> Riismi.Repo.update
     end)
   end
 
-    
+  @spec get_all_new_software::[%Riismi.Inventory{}]
+  def get_all_new_software do
+    Riismi.Inventory
+    |> Ecto.Query.where(new_record: ^true)
+    |> Riismi.Repo.all
+  end
+
+  
+  @spec mark_record_as_old(%Riismi.Inventory{})::no_return()
+  def mark_record_as_old(inventory_record) do
+    Riismi.Inventory.changeset(inventory_record, %{new_record: false})
+    |> Riismi.Repo.update
+  end
+  
+  @spec mark_all_records_as_old()::no_return()  
+  def mark_all_records_as_old do
+    get_all_new_software
+    |> Enum.each(fn(inventory_record) -> mark_record_as_old(inventory_record) end)
+  end
+
+  
 end

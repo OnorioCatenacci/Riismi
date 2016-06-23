@@ -1,0 +1,948 @@
+MC31
+Thu 06/16/2016 
+11:42 AM
+
+
+Name=Citrix Online Launcher
+Version=1.0.312
+
+
+Name=join.me.launcher
+Version=1.0.624.0
+
+
+Name=Sococo
+Version=3.5.13.14260
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Camtasia Studio 8
+Version=8.6.0.2054
+
+
+Name=Intelr PROSet/Wireless WiFi Software
+Version=17.13.1.0452
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Intel(R) Wireless Bluetooth(R)(patch version 17.1.1431.1)
+Version=17.1.1407.0480
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=Maxx Audio Installer (x64)
+Version=1.6.4718.78
+
+
+Name=Java 7 Update 79 (64-bit)
+Version=7.0.790
+
+
+Name=Java 8 Update 71 (64-bit)
+Version=8.0.710.15
+
+
+Name=Java SE Development Kit 8 Update 51 (64-bit)
+Version=8.0.510.16
+
+
+Name=SkypeT 6.18
+Version=6.18.105
+
+
+Name=ASUS Splendid Video Enhancement Technology
+Version=3.03.0006
+
+
+Name=ASUS USB Charger Plus
+Version=4.0.2
+
+
+Name=Intelr Hardware Accelerated Execution Manager
+Version=1.1.1
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=ASUS Smart Gesture
+Version=3.0.8
+
+
+Name=Prey Anti-Theft
+Version=1.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022
+Version=9.0.21022
+
+
+Name=ASUS Live Update
+Version=3.2.9
+
+
+Name=Intel(R) Chipset Device Software
+Version=10.0.21
+
+
+Name=Device Setup
+Version=1.0.18
+
+
+Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Adobe AIR
+Version=18.0.0.144
+
+
+Name=Balsamiq Mockups 3
+Version=3.1.2
+
+
+Name=SourceTree
+Version=1.8.2.11
+
+
+Name=Intel(R) Management Engine Components
+Version=1.0.0.0
+
+
+Name=
+Version=
+
+
+Name=Intel(R) PRO/Wireless Driver
+Version=17.13.2000.2036
+
+
+Name=Intel(R) Serial IO
+Version=1.1.226.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.35.133.1
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=ASUS GIFTBOX Desktop
+Version=1.1.6
+
+
+Name=Foxit PhantomPDF
+Version=6.0.62.801
+
+
+Name=Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=ASUS FlipLock
+Version=1.0.6
+
+
+Name=Alcor Micro USB Card Reader Driver 
+Version=20.4.10117.43857
+
+
+Name=Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=WinFlash
+Version=3.0.1
+
+
+Name=ATK Package
+Version=1.0.0037
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Intel(R) ME UninstallLegacy
+Version=1.0.1.0
+
+
+Name=Intel(R) Management Engine Components
+Version=10.0.28.1006
+
+
+Name=Snagit 12
+Version=12.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17
+Version=9.0.30729
+
+
+Name=Java Auto Updater
+Version=2.8.71.15
+
+
+
+
+MC31
+Thu 06/16/2016 
+01:18 PM
+
+
+Name=Citrix Online Launcher
+Version=1.0.312
+
+
+Name=join.me.launcher
+Version=1.0.624.0
+
+
+Name=Sococo
+Version=3.5.13.14260
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Camtasia Studio 8
+Version=8.6.0.2054
+
+
+Name=Intelr PROSet/Wireless WiFi Software
+Version=17.13.1.0452
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Intel(R) Wireless Bluetooth(R)(patch version 17.1.1431.1)
+Version=17.1.1407.0480
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=Maxx Audio Installer (x64)
+Version=1.6.4718.78
+
+
+Name=Java 7 Update 79 (64-bit)
+Version=7.0.790
+
+
+Name=Java 8 Update 71 (64-bit)
+Version=8.0.710.15
+
+
+Name=Java SE Development Kit 8 Update 51 (64-bit)
+Version=8.0.510.16
+
+
+Name=SkypeT 6.18
+Version=6.18.105
+
+
+Name=ASUS Splendid Video Enhancement Technology
+Version=3.03.0006
+
+
+Name=ASUS USB Charger Plus
+Version=4.0.2
+
+
+Name=Intelr Hardware Accelerated Execution Manager
+Version=1.1.1
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=ASUS Smart Gesture
+Version=3.0.8
+
+
+Name=Prey Anti-Theft
+Version=1.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022
+Version=9.0.21022
+
+
+Name=ASUS Live Update
+Version=3.2.9
+
+
+Name=Intel(R) Chipset Device Software
+Version=10.0.21
+
+
+Name=Device Setup
+Version=1.0.18
+
+
+Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Adobe AIR
+Version=18.0.0.144
+
+
+Name=Balsamiq Mockups 3
+Version=3.1.2
+
+
+Name=SourceTree
+Version=1.8.2.11
+
+
+Name=Intel(R) Management Engine Components
+Version=1.0.0.0
+
+
+Name=
+Version=
+
+
+Name=Intel(R) PRO/Wireless Driver
+Version=17.13.2000.2036
+
+
+Name=Intel(R) Serial IO
+Version=1.1.226.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.35.133.1
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=ASUS GIFTBOX Desktop
+Version=1.1.6
+
+
+Name=Foxit PhantomPDF
+Version=6.0.62.801
+
+
+Name=Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=ASUS FlipLock
+Version=1.0.6
+
+
+Name=Alcor Micro USB Card Reader Driver 
+Version=20.4.10117.43857
+
+
+Name=Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=WinFlash
+Version=3.0.1
+
+
+Name=ATK Package
+Version=1.0.0037
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Intel(R) ME UninstallLegacy
+Version=1.0.1.0
+
+
+Name=Intel(R) Management Engine Components
+Version=10.0.28.1006
+
+
+Name=Snagit 12
+Version=12.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17
+Version=9.0.30729
+
+
+Name=Java Auto Updater
+Version=2.8.71.15
+
+
+
+
+MC31
+Thu 06/16/2016 
+02:07 PM
+
+
+Name=Citrix Online Launcher
+Version=1.0.312
+
+
+Name=join.me.launcher
+Version=1.0.624.0
+
+
+Name=Sococo
+Version=3.5.13.14260
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Camtasia Studio 8
+Version=8.6.0.2054
+
+
+Name=Intelr PROSet/Wireless WiFi Software
+Version=17.13.1.0452
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Intel(R) Wireless Bluetooth(R)(patch version 17.1.1431.1)
+Version=17.1.1407.0480
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=Maxx Audio Installer (x64)
+Version=1.6.4718.78
+
+
+Name=Java 7 Update 79 (64-bit)
+Version=7.0.790
+
+
+Name=Java 8 Update 71 (64-bit)
+Version=8.0.710.15
+
+
+Name=Java SE Development Kit 8 Update 51 (64-bit)
+Version=8.0.510.16
+
+
+Name=SkypeT 6.18
+Version=6.18.105
+
+
+Name=ASUS Splendid Video Enhancement Technology
+Version=3.03.0006
+
+
+Name=ASUS USB Charger Plus
+Version=4.0.2
+
+
+Name=Intelr Hardware Accelerated Execution Manager
+Version=1.1.1
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=ASUS Smart Gesture
+Version=3.0.8
+
+
+Name=Prey Anti-Theft
+Version=1.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022
+Version=9.0.21022
+
+
+Name=ASUS Live Update
+Version=3.2.9
+
+
+Name=Intel(R) Chipset Device Software
+Version=10.0.21
+
+
+Name=Device Setup
+Version=1.0.18
+
+
+Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Adobe AIR
+Version=18.0.0.144
+
+
+Name=Balsamiq Mockups 3
+Version=3.1.2
+
+
+Name=SourceTree
+Version=1.8.2.11
+
+
+Name=Node.js
+Version=4.4.5
+
+
+Name=Intel(R) Management Engine Components
+Version=1.0.0.0
+
+
+Name=
+Version=
+
+
+Name=Intel(R) PRO/Wireless Driver
+Version=17.13.2000.2036
+
+
+Name=Intel(R) Serial IO
+Version=1.1.226.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.35.133.1
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=ASUS GIFTBOX Desktop
+Version=1.1.6
+
+
+Name=Foxit PhantomPDF
+Version=6.0.62.801
+
+
+Name=Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=ASUS FlipLock
+Version=1.0.6
+
+
+Name=Alcor Micro USB Card Reader Driver 
+Version=20.4.10117.43857
+
+
+Name=Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=WinFlash
+Version=3.0.1
+
+
+Name=ATK Package
+Version=1.0.0037
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Intel(R) ME UninstallLegacy
+Version=1.0.1.0
+
+
+Name=Intel(R) Management Engine Components
+Version=10.0.28.1006
+
+
+Name=Snagit 12
+Version=12.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17
+Version=9.0.30729
+
+
+Name=Java Auto Updater
+Version=2.8.71.15
+
+
+
+
+MC31
+Thu 06/16/2016 
+02:16 PM
+
+
+Name=Citrix Online Launcher
+Version=1.0.312
+
+
+Name=join.me.launcher
+Version=1.0.624.0
+
+
+Name=Sococo
+Version=3.5.13.14260
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Camtasia Studio 8
+Version=8.6.0.2054
+
+
+Name=Intelr PROSet/Wireless WiFi Software
+Version=17.13.1.0452
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Intel(R) Wireless Bluetooth(R)(patch version 17.1.1431.1)
+Version=17.1.1407.0480
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=Maxx Audio Installer (x64)
+Version=1.6.4718.78
+
+
+Name=Java 7 Update 79 (64-bit)
+Version=7.0.790
+
+
+Name=Java 8 Update 71 (64-bit)
+Version=8.0.710.15
+
+
+Name=Java SE Development Kit 8 Update 51 (64-bit)
+Version=8.0.510.16
+
+
+Name=SkypeT 6.18
+Version=6.18.105
+
+
+Name=ASUS Splendid Video Enhancement Technology
+Version=3.03.0006
+
+
+Name=ASUS USB Charger Plus
+Version=4.0.2
+
+
+Name=Intelr Hardware Accelerated Execution Manager
+Version=1.1.1
+
+
+Name=Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=ASUS Smart Gesture
+Version=3.0.8
+
+
+Name=Prey Anti-Theft
+Version=1.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Version=12.0.21005
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022
+Version=9.0.21022
+
+
+Name=ASUS Live Update
+Version=3.2.9
+
+
+Name=Intel(R) Chipset Device Software
+Version=10.0.21
+
+
+Name=Device Setup
+Version=1.0.18
+
+
+Name=Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Adobe AIR
+Version=18.0.0.144
+
+
+Name=Balsamiq Mockups 3
+Version=3.1.2
+
+
+Name=SourceTree
+Version=1.8.2.11
+
+
+Name=Node.js
+Version=4.4.5
+
+
+Name=Intel(R) Management Engine Components
+Version=1.0.0.0
+
+
+Name=
+Version=
+
+
+Name=Intel(R) PRO/Wireless Driver
+Version=17.13.2000.2036
+
+
+Name=Intel(R) Serial IO
+Version=1.1.226.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.35.133.1
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=ASUS GIFTBOX Desktop
+Version=1.1.6
+
+
+Name=Foxit PhantomPDF
+Version=6.0.62.801
+
+
+Name=Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=ASUS FlipLock
+Version=1.0.6
+
+
+Name=Alcor Micro USB Card Reader Driver 
+Version=20.4.10117.43857
+
+
+Name=Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Version=11.0.61030
+
+
+Name=WinFlash
+Version=3.0.1
+
+
+Name=ATK Package
+Version=1.0.0037
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Intel(R) ME UninstallLegacy
+Version=1.0.1.0
+
+
+Name=Intel(R) Management Engine Components
+Version=10.0.28.1006
+
+
+Name=Snagit 12
+Version=12.4.1
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.17
+Version=9.0.30729
+
+
+Name=Java Auto Updater
+Version=2.8.71.15
+
+
+
+

@@ -1,7 +1,7 @@
 defmodule Riismi.Parser do
   @sw_name "sw_name"
   @sw_version "sw_version"
-  @name_regex ~r/^Name=(?<#{@sw_name}>([\w|\w-|\w\+]+ *)*)/
+  @name_regex ~r/^Name=(?<#{@sw_name}>([\w|\w-|\w\+|\.\w|\(\w+\)]+ *)*)/
   @version_regex ~r/^Version=(?<#{@sw_version}>\d+.\d+.\d+(.\d*)?)\r/
   @time_regex ~r/(?<time>^\d{2}:\d{2} [A|P]M\s*$)/
   
@@ -41,23 +41,24 @@ defmodule Riismi.Parser do
     |> Enum.reduce([], fn(line, acc) -> [line|acc] end)
   end
 
-  @doc ~S"""
-  Take a path to the machine inventory file and return the machine name from it.
-
-  No check is made to insure the file actually exists so if you need to confirm that the file in question actually exists, code that yourself.
-
-  ## Examples
-
-      iex> Riismi.Parser.get_machine_name("c:/users/ocatenacci/riismi/test/MC16.txt")
-      "MC16"
-  """
-  @spec get_machine_name(Path.t)::binary
+  @spec get_machine_name(Path.t)::String.t
   def get_machine_name(file) do
     #Machine name is the base part of the file name.
     hd(String.split(Path.basename(file),"."))
   end
 
-  
+  @spec transform_to_semver([String.t]):: :error | {:ok,%Version{} }
+  defp transform_to_semver([major,minor,patch]), do: Version.parse("#{major}.#{minor}.#{patch}")
+  defp transform_to_semver([major,minor,patch,build]), do: Version.parse("#{major}.#{minor}.#{patch}+#{build}")
+    
+
+  @spec compare_versions(String.t, String.t):: :eq | :lt | :gt
+  def compare_versions(version_a, version_b) do
+    {:ok,a} = transform_to_semver(String.split(version_a, "."))
+    {:ok,b} = transform_to_semver(String.split(version_b, "."))
+    Version.compare(a,b)
+  end
+    
   @spec get_name_version_pairs(Path.t)::[%Riismi.Inventory{}]
   def get_name_version_pairs(inventory_file) do
     find_most_recent_entries(inventory_file)

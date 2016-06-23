@@ -21,6 +21,15 @@ use Mix.Config
 #     config :logger, level: :info
 #
 config :riismi, ecto_repos: [Riismi.Repo]
+config :riismi, Riismi.Mailer,
+    adapter: Bamboo.SMTPAdapter,
+    server: "smtp.gmail.com",
+    port: 1025,
+    username: "ocatenacci@riis.com",
+    password: "CTObCA(&#",
+    tls: :if_available, # can be `:always` or `:never`
+    ssl: true, # can be `true`
+    retries: 1
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment

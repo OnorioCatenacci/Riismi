@@ -11,7 +11,7 @@ defmodule Riismi.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :postgrex],
+    [applications: [:logger, :postgrex, :bamboo],
      mod: {Riismi, []}]
   end
 
@@ -21,6 +21,9 @@ defmodule Riismi.Mixfile do
       {:postgrex, "~> 0.11"},
       {:earmark, "~> 0.2.1", only: :dev},
       {:ex_doc, "~> 0.11.4", only: :dev},
+      {:bamboo, "~> 0.6.0"},
+      {:bamboo_smtp, "~> 1.0"},
+      {:gen_smtp, "~>0.11.0", override: true}
     ]
   end
 end
