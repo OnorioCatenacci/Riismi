@@ -1,7 +1,7 @@
 defmodule Riismi.Parser do
   @sw_name "sw_name"
   @sw_version "sw_version"
-  @name_regex ~r/^Name=(?<#{@sw_name}>([\w|\w-|\w\+|\.\w|\(\w+\)]+ *)*)/
+  @name_regex ~r/^Name=(?<#{@sw_name}>([:w:|:w:-|:w:\+|\.:w:|\(:w:+\)]+ *)*)/
   @version_regex ~r/^Version=(?<#{@sw_version}>\d+.\d+.\d+(.\d*)?)\r/
   @time_regex ~r/(?<time>^\d{2}:\d{2} [A|P]M\s*$)/
   
@@ -14,16 +14,18 @@ defmodule Riismi.Parser do
   defp is_software_name?(string), do: Regex.match?(@name_regex, string)
   @spec get_software_name(binary)::binary
   defp get_software_name(string) do
-    result = capture_strings(@name_regex, string)
-    result["#{@sw_name}"]
+    "Name=" <> sw_name = String.trim(string)
+    sw_name
   end
 
   @spec is_software_version?(binary)::boolean
   defp is_software_version?(string), do: Regex.match?(@version_regex, string)
   @spec get_software_version(binary)::binary
   defp get_software_version(string) do
-    result = capture_strings(@version_regex, string)
-    result["#{@sw_version}"]
+#    result = capture_strings(@version_regex, string)
+    #    result["#{@sw_version}"]
+    "Version=" <> sw_version = String.trim(string)
+    sw_version
   end
 
   @spec find_most_recent_entries(Path.t)::[binary]
@@ -34,8 +36,8 @@ defmodule Riismi.Parser do
   end
 
   @spec file_into_list_tailfirst(Path.t)::[binary]
-  defp file_into_list_tailfirst(file) do
-    :ok = :io.setopts(:standard_io, encoding: :latin1)
+  def file_into_list_tailfirst(file) do
+    :ok = :io.setopts(:standard_io, encoding: :utf8)
     File.open!(file)
     |> IO.binstream(:line)
     |> Enum.reduce([], fn(line, acc) -> [line|acc] end)
@@ -50,6 +52,7 @@ defmodule Riismi.Parser do
   @spec transform_to_semver([String.t]):: :error | {:ok,%Version{} }
   defp transform_to_semver([major,minor,patch]), do: Version.parse("#{major}.#{minor}.#{patch}")
   defp transform_to_semver([major,minor,patch,build]), do: Version.parse("#{major}.#{minor}.#{patch}+#{build}")
+    
     
 
   @spec compare_versions(String.t, String.t):: :eq | :lt | :gt

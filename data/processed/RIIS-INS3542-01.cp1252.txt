@@ -1,0 +1,1589 @@
+RIIS-INS3542-01
+Mon 05/16/2016 
+09:17 AM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.335
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4815.1001
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4815.1001
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4815.1001
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20039
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+
+RIIS-INS3542-01
+Tue 05/24/2016 
+08:21 AM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.335
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4815.1001
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4815.1001
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4815.1001
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20041
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+
+RIIS-INS3542-01
+Tue 05/31/2016 
+09:03 AM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.335
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20041
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+
+RIIS-INS3542-01
+Wed 06/01/2016 
+08:48 AM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.408
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20041
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+
+RIIS-INS3542-01
+Mon 06/06/2016 
+02:31 PM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.408
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20045
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+
+RIIS-INS3542-01
+Tue 06/07/2016 
+08:39 AM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.408
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20045
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+
+RIIS-INS3542-01
+Mon 06/13/2016 
+01:10 PM
+
+
+Name=Virtru for Outlook Beta (32-bit Components)
+Version=1.2.4
+
+
+Name=Citrix Online Launcher
+Version=1.0.408
+
+
+Name=Virtru for Outlook Beta (64-bit Components)
+Version=1.0.0
+
+
+Name=Office 15 Click-to-Run Extensibility Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Localization Component
+Version=15.0.4823.1004
+
+
+Name=Office 15 Click-to-Run Licensing Component
+Version=15.0.4823.1004
+
+
+Name=Win32Agent
+Version=4.91.2000
+
+
+Name=Google Apps SyncT for Microsoft Outlookr 3.8.440.1250
+Version=3.8.440.1250
+
+
+Name=Cisco Systems VPN Client 5.0.07.0290
+Version=5.0.7
+
+
+Name=Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Microsoft Visual C++ 2005 Redistributable (x64)
+Version=8.0.61000
+
+
+Name=
+Version=8.0.1.314
+
+
+Name=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version=10.0.40219
+
+
+Name=Apple Software Update
+Version=2.1.4.131
+
+
+Name=64 Bit HP CIO Components Installer
+Version=13.2.1
+
+
+Name=eBay
+Version=1.4.0
+
+
+Name=Consumer In-Home Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version=10.0.50908
+
+
+Name=Accidental Damage Services Agreement
+Version=2.0.0
+
+
+Name=Banctec Service Agreement
+Version=2.0.0
+
+
+Name=Adobe Refresh Manager
+Version=1.8.0
+
+
+Name=Adobe Acrobat Reader DC
+Version=15.016.20045
+
+
+Name=Premium Service Agreement
+Version=2.0.0
+
+
+Name=Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Version=9.0.30729.6161
+
+
+Name=Complete Care Business Service Agreement
+Version=2.0.0
+
+
+Name=Intelr Trusted Connect Service Client
+Version=1.31.8.1
+
+
+Name=SkypeT 7.18
+Version=7.18.112
+
+
+Name=Shared C Run-time for x64
+Version=10.0.0
+
+
+Name=Bonjour
+Version=3.1.0.1
+
+
+Name=QualxServ Service Agreement
+Version=2.0.0
+
+
+Name=iTunes
+Version=12.3.2.35
+
+
+Name=Microsoft Office Visio Professional 2003
+Version=11.0.8173.0
+
+
+Name=Google Update Helper
+Version=1.3.25.11
+
+
+Name=
+Version=
+
+
+Name=Google Update Helper
+Version=1.3.30.3
+
+
+Name=HP Officejet 6600 Help
+Version=140.0.2.2
+
+
+Name=Microsoft DVD App Installation for Microsoft.WindowsDVDPlayer_2019.6.13291.0_neutral_~_8wekyb3d8bbwe (x64)
+Version=1.0.0.0
+
+
+Name=Global VPN Client
+Version=4.9.4
+
+
+Name=Tableau Reader 9.1 (9100.15.0828.1711)
+Version=9.1.126
+
+
+Name=Google Chrome
+Version=50.0.2661.102
+
+
+Name=Apple Application Support (64-bit)
+Version=4.1.2
+
+
+Name=Microsoft .NET Framework 4.5.1
+Version=4.5.50938
+
+
+Name=Dell Digital Delivery
+Version=3.1.1002.0
+
+
+Name=Microsoft Visual C++ 2005 Redistributable
+Version=8.0.61001
+
+
+Name=HP Officejet 6600 Basic Device Software
+Version=25.0.619.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 ENU
+Version=3.5.8080.0
+
+
+Name=Microsoft Silverlight
+Version=5.1.41212.0
+
+
+Name=Microsoft SQL Server Compact 3.5 SP2 x64 ENU
+Version=3.5.8080.0
+
+
+Name=HP Update
+Version=5.003.000.004
+
+
+Name=Apple Mobile Device Support
+Version=9.1.0.6
+
+
+Name=ESET Smart Security
+Version=4.2.71.2
+
+
+Name=Quickset64
+Version=11.1.18
+
+
+Name=I.R.I.S. OCR
+Version=12.3.4.0
+
+
+Name=Dell Home Systems Service Agreement
+Version=2.0.0
+
+
+Name=Apple Application Support (32-bit)
+Version=4.1.2
+
+
+
+

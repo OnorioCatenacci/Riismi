@@ -1,0 +1,3 @@
+# Quick and Dirty utility file to convert all CP-1252 files to UTF8 via Powershell
+
+Get-Content *.txt | 

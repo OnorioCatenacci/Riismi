@@ -6,8 +6,10 @@ defmodule Riismi.File do
   def process_inventory_files do
     Path.wildcard("#{@file_directory}/#{@inventory_file_mask}")
     |> add_inventory_records
-    |> Riismi.Db.get_all_new_software
     #Get the list of all new records and send it via e-mail to J. Nolan
+    Riismi.Db.get_all_new_software
+    |> Riismi.Email.new_software_email
+    |> Riismi.Mailer.deliver_now
   end
 
   @spec move_inventory_file(binary)::no_return()

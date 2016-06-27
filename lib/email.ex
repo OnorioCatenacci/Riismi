@@ -2,24 +2,21 @@ defmodule Riismi.Email do
   import Bamboo.Email
 
   def new_software_email(new_software_list) when is_list(new_software_list)  do
-    head = ~s"<strong>New Software</strong><br />"
-    table_head = ~s"""
-    <table>
-      <tr>
-        <th>Machine</th>
-        <th>Software Name</th>
-        <th>Software Version</th>
+    head = ~s(<h1 style="text-align: center;">New Software</h1><br />)
+    table_head = ~s(
+    <table style="border: 1px solid black; border-collapse: collapse;">
+      <tr style="border: 1px solid black;">
+        <th style="border: 1px solid black;">Machine</th>
+        <th style="border: 1px solid black;">Software Name</th>
+        <th style="border: 1px solid black;">Software Version</th>
       </tr>
-    """
-    body = Enum.reduce("", fn(new_software_record, accumulator) ->
+    )
+    body =
+      new_software_list
+      |> Enum.reduce("", fn(new_software_record, accumulator) ->
+      %Riismi.Inventory{machine_id: m, sw_name: swn, sw_version: swv} = new_software_record
       accumulator <> 
-      """
-      <tr>
-        <td>#{new_software_record["machine_id"]}</td>
-        <td>#{new_software_record["sw_name"]}</td>
-        <td>#{new_software_record["sw_version"]}</td>
-      </tr>
-      """
+      ~s(<tr style="border: 1px solid black;"><td style="border: 1px solid black;">#{m}</td><td style="border: 1px solid black;">#{swn}</td><td style="border: 1px solid black;">#{swv}</td></tr>)
     end)
 
     html_for_email = """
@@ -27,8 +24,6 @@ defmodule Riismi.Email do
     #{table_head}
     #{body}
     """
-         
-      
     new_email
     |> to("ocatenacci@riis.com")
     |> from("ocatenacci@riis.com")

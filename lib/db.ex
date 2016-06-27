@@ -21,6 +21,8 @@ defmodule Riismi.Db do
 
   @spec get_inventory_records(binary, binary)::Ecto.Query.t
   def get_inventory_records(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
+    IO.inspect "machine=" <> machine
+    IO.inspect "sw_name=" <> sw_name
     Riismi.Inventory
     |> Ecto.Query.where(machine_id: ^machine)
     |> Ecto.Query.where(sw_name: ^sw_name)
@@ -96,6 +98,7 @@ defmodule Riismi.Db do
   def get_all_new_software do
     Riismi.Inventory
     |> Ecto.Query.where(new_record: ^true)
+    |> Ecto.Query.order_by([:machine_id, :sw_name] )
     |> Riismi.Repo.all
   end
 

@@ -24,12 +24,12 @@ config :riismi, ecto_repos: [Riismi.Repo]
 config :riismi, Riismi.Mailer,
     adapter: Bamboo.SMTPAdapter,
     server: "smtp.gmail.com",
-    port: 1025,
+    port: 465,
     username: "ocatenacci@riis.com",
-    password: "CTObCA(&#",
-    tls: :if_available, # can be `:always` or `:never`
+    password: "yhglmpjpkkgscxjg",
+    tls: :if_available, # can be `:always` or `:never` or `:if_available`
     ssl: true, # can be `true`
-    retries: 1
+    retries: 3
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
