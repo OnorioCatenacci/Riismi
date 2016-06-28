@@ -67,14 +67,14 @@ defmodule Riismi.Db do
   end
 
   @spec set_sw_version(binary, binary)::binary
-  def set_sw_version(old_version, new_version) do
-      case Riismi.Parser.compare_versions(old_version, new_version) do
+  def set_sw_version(version_from_db, version_from_file) do
+      case Riismi.Parser.compare_versions(version_from_db, version_from_file) do
         :gt ->
-          old_version
+          version_from_db
         :lt ->
-          new_version
+          version_from_file
         :eq ->
-          new_version
+          version_from_db
     end
   end
 
@@ -82,16 +82,18 @@ defmodule Riismi.Db do
   defp get_version_from_inventory_record([%Riismi.Inventory{sw_version: old_sw_version}|_] = _r), do: old_sw_version
   
   @spec update_software_version(binary, binary, binary)::no_return()
-  def update_software_version(machine, sw_name, new_sw_version) do
+  def update_software_version(machine, sw_name, version_from_file) do
     record =
       get_inventory_records(machine, sw_name)
       |> Riismi.Repo.all
     
-    version = set_sw_version(get_version_from_inventory_record(record),new_sw_version)
-    Enum.each(record, fn (r) ->
-      Riismi.Inventory.changeset(r, %{new_record: true, sw_version: version})
-      |> Riismi.Repo.update
-    end)
+    version = set_sw_version(get_version_from_inventory_record(record),version_from_file)
+    if(version == version_from_file) do
+      Enum.each(record, fn (r) ->
+        Riismi.Inventory.changeset(r, %{new_record: true, sw_version: version})
+        |> Riismi.Repo.update
+      end)
+    end
   end
 
   @spec get_all_new_software::[%Riismi.Inventory{}]
