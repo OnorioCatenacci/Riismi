@@ -1,32 +1,33 @@
 defmodule Riismi.Parser do
   @sw_name "sw_name"
   @sw_version "sw_version"
-  @name_regex ~r/^Name=(?<#{@sw_name}>([:w:|:w:-|:w:\+|\.:w:|\(:w:+\)]+ *)*)/
-  @version_regex ~r/^Version=(?<#{@sw_version}>\d+.\d+.\d+(.\d*)?)\r/
+  @name_literal "Name="
+  @version_literal "Version="
+#  @name_regex ~r/^Name=(?<#{@sw_name}>([:w:|:w:-|:w:\+|\.:w:|\(:w:+\)]+ *)*)/
+#  @version_regex ~r/^Version=(?<#{@sw_version}>\d+.\d+.\d+(.\d*)?)\r/
   @time_regex ~r/(?<time>^\d{2}:\d{2} [A|P]M\s*$)/
   
-  @spec capture_strings(%Regex{}, binary)::map | nil
-  defp capture_strings(re, string)  do 
-    if Regex.match?(re, string), do: Regex.named_captures(re, string), else: nil
-  end
-
-  @spec is_software_name?(binary)::boolean
-  defp is_software_name?(string), do: Regex.match?(@name_regex, string)
   @spec get_software_name(binary)::binary
   defp get_software_name(string) do
-    "Name=" <> sw_name = String.trim(string)
+    @name_literal <> sw_name = String.trim(string)
     sw_name
   end
 
-  @spec is_software_version?(binary)::boolean
-  defp is_software_version?(string), do: Regex.match?(@version_regex, string)
+  @spec is_software_name?(binary)::boolean
+  defp is_software_name?(""), do: false
+  defp is_software_name?(@name_literal <> sw_name), do: not(String.trim(sw_name) == "")
+  defp is_software_name?(s) when is_binary(s), do: false
+
   @spec get_software_version(binary)::binary
   defp get_software_version(string) do
-#    result = capture_strings(@version_regex, string)
-    #    result["#{@sw_version}"]
-    "Version=" <> sw_version = String.trim(string)
+    @version_literal <> sw_version = String.trim(string)
     sw_version
   end
+
+  @spec is_software_version?(binary)::boolean
+  defp is_software_version?(""), do: false
+  defp is_software_version?(@version_literal <> sw_version), do: not(String.trim(sw_version) == "")
+  defp is_software_version?(s) when is_binary(s), do: false
 
   @spec find_most_recent_entries(Path.t)::[binary]
   defp find_most_recent_entries(inventory_file) do
@@ -49,10 +50,11 @@ defmodule Riismi.Parser do
     hd(String.split(Path.basename(file),"."))
   end
 
+  
   @spec transform_to_semver([String.t]):: :error | {:ok,%Version{} }
+  defp transform_to_semver([major, minor]), do: transform_to_semver([major, minor, "0"])
   defp transform_to_semver([major,minor,patch]), do: Version.parse("#{major}.#{minor}.#{patch}")
-  defp transform_to_semver([major,minor,patch,build]), do: Version.parse("#{major}.#{minor}.#{patch}+#{build}")
-    
+  defp transform_to_semver([major,minor,patch,build]),  do: Version.parse("#{major}.#{minor}.#{patch}+#{build}")
     
 
   @spec compare_versions(String.t, String.t):: :eq | :lt | :gt
@@ -68,7 +70,7 @@ defmodule Riismi.Parser do
     |> Enum.chunk(2)  #Grab two lines at a time
     |> Enum.reduce([],
     fn ([name|[version]], acc) -> 
-      if (is_software_name?(name)  && is_software_version?(version)) do
+      if (is_software_name?(String.trim(name))  && is_software_version?(String.trim(version))) do
         [%Riismi.Inventory{machine_id: get_machine_name(inventory_file), sw_name: "#{get_software_name(name)}",sw_version: "#{get_software_version(version)}", new_record: :true} | acc]
       else
         acc

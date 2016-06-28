@@ -21,6 +21,7 @@ defmodule Riismi.File do
   @spec add_inventory_records([binary])::no_return()
   def add_inventory_records([]), do: nil
   def add_inventory_records([inventory_file|tail]) do
+    IO.puts inventory_file
     Riismi.Parser.get_name_version_pairs(inventory_file)
     |> Riismi.Db.insert_new_records
     move_inventory_file(inventory_file)

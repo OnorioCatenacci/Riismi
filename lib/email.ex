@@ -1,7 +1,20 @@
 defmodule Riismi.Email do
   import Bamboo.Email
 
-  def new_software_email(new_software_list) when is_list(new_software_list)  do
+  @to_address Riismi.to_address
+  @from_address Riismi.from_address
+  @subject "Newly Installed Software"
+  
+  def new_software_email([]) do
+    head = ~s(<h1 style="text-align: center;">No New Software Found </h1><br />)
+    new_email
+    |> to(@to_address)
+    |> from(@from_address)
+    |> subject(@subject)
+    |> html_body(head)
+  end
+  
+  def new_software_email(new_software_list) when is_list(new_software_list) do
     head = ~s(<h1 style="text-align: center;">New Software</h1><br />)
     table_head = ~s(
     <table style="border: 1px solid black; border-collapse: collapse;">

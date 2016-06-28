@@ -1,4 +1,4 @@
-RIIS-BEATSAUDIO-01
+ï»¿RIIS-BEATSAUDIO-01
 Thu 06/09/2016 
 02:30 PM
 
@@ -199,7 +199,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -855,7 +855,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -1155,7 +1155,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -1660,7 +1660,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Thu 06/09/2016 
 03:18 PM
@@ -1869,7 +1868,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -2537,7 +2536,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -2837,7 +2836,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -3342,7 +3341,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Mon 06/13/2016 
 09:11 AM
@@ -3548,7 +3546,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -4216,7 +4214,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -4516,7 +4514,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -5021,7 +5019,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Tue 06/14/2016 
 09:00 AM
@@ -5227,7 +5224,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -5895,7 +5892,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -6195,7 +6192,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -6700,7 +6697,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Wed 06/15/2016 
 09:05 AM
@@ -6906,7 +6902,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -7574,7 +7570,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -7874,7 +7870,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -8379,7 +8375,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Thu 06/16/2016 
 09:06 AM
@@ -8585,7 +8580,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -9253,7 +9248,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -9553,7 +9548,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -10058,7 +10053,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Thu 06/16/2016 
 01:23 PM
@@ -10264,7 +10258,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -10932,7 +10926,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -11232,7 +11226,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -11737,7 +11731,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Thu 06/16/2016 
 02:59 PM
@@ -11943,7 +11936,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -12611,7 +12604,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -12911,7 +12904,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -13416,7 +13409,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Thu 06/16/2016 
 03:43 PM
@@ -13622,7 +13614,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -14290,7 +14282,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -14590,7 +14582,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -15095,7 +15087,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Fri 06/17/2016 
 09:05 AM
@@ -15301,7 +15292,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -15969,7 +15960,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -16269,7 +16260,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -16774,7 +16765,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Mon 06/20/2016 
 09:01 AM
@@ -16980,7 +16970,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -17648,7 +17638,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -17948,7 +17938,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -18453,7 +18443,6 @@ Version=14.0.23102
 
 
 
-
 RIIS-BEATSAUDIO-01
 Tue 06/21/2016 
 09:03 AM
@@ -18659,7 +18648,7 @@ Name=Install Finalizer
 Version=2.8.31121.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -19327,7 +19316,7 @@ Name=Roslyn Language Services - x86
 Version=14.0.23107
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -19627,7 +19616,7 @@ Name=SQL Server 2014 Management Studio
 Version=12.0.2000.8
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 

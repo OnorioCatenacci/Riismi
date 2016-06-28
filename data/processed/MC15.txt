@@ -1,4 +1,4 @@
-MC15
+ï»¿MC15
 Mon 05/09/2016 
 07:33 AM
 
@@ -215,7 +215,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -703,7 +703,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -879,7 +879,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -1212,7 +1212,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Tue 05/10/2016 
 07:39 AM
@@ -1430,7 +1429,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -1918,7 +1917,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -2094,7 +2093,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -2427,7 +2426,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Wed 05/11/2016 
 07:41 AM
@@ -2645,7 +2643,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -3133,7 +3131,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -3309,7 +3307,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -3642,7 +3640,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Thu 05/12/2016 
 07:40 AM
@@ -3860,7 +3857,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -4348,7 +4345,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -4524,7 +4521,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -4857,7 +4854,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Fri 05/13/2016 
 07:45 AM
@@ -5075,7 +5071,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -5563,7 +5559,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -5739,7 +5735,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -6072,7 +6068,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Mon 05/16/2016 
 07:52 AM
@@ -6290,7 +6285,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -6778,7 +6773,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -6954,7 +6949,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -7287,7 +7282,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Tue 05/17/2016 
 07:45 AM
@@ -7505,7 +7499,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -7993,7 +7987,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -8169,7 +8163,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -8502,7 +8496,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Wed 05/18/2016 
 07:40 AM
@@ -8720,7 +8713,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -9208,7 +9201,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -9384,7 +9377,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -9717,7 +9710,6 @@ Version=11.1.2818.0
 
 
 
-
 MC15
 Thu 05/19/2016 
 07:40 AM
@@ -9935,7 +9927,7 @@ Name=Microsoft System CLR Types for SQL Server 2014
 Version=12.1.4100.1
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -10423,7 +10415,7 @@ Name=Microsoft ODBC Driver 11 for SQL Server
 Version=13.0.1000.255
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x64 Hosting Support  - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
@@ -10599,7 +10591,7 @@ Name=Microsoft Visual Studio Tools for Applications 2012 Design-Time - DEU-Sprac
 Version=11.0.51108
 
 
-Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Fran‡ais
+Name=Microsoft Visual Studio Tools for Applications 2012 x86 Hosting Support - Module linguistique Franâ€¡ais
 Version=11.0.51108
 
 
