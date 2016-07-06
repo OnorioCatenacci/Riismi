@@ -1,0 +1,12 @@
+{application,riismi,
+             [{registered,[]},
+              {description,"riismi"},
+              {vsn,"0.0.1"},
+              {modules,['Elixir.EnvFix','Elixir.Riismi','Elixir.Riismi.Db',
+                        'Elixir.Riismi.Email','Elixir.Riismi.File',
+                        'Elixir.Riismi.Inventory','Elixir.Riismi.Mailer',
+                        'Elixir.Riismi.Parser','Elixir.Riismi.Repo',
+                        'Elixir.Riismi.Timer']},
+              {applications,[kernel,stdlib,elixir,logger,postgrex,bamboo,ecto,
+                             bamboo_smtp]},
+              {mod,{'Elixir.Riismi',[]}}]}.

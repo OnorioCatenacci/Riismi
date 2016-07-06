@@ -3,7 +3,7 @@ defmodule Riismi.Mixfile do
 
   def project do
     [app: :riismi,
-     version: "0.0.1",
+     version: "0.9.0",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -11,7 +11,7 @@ defmodule Riismi.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :postgrex, :bamboo],
+    [applications: [:logger, :postgrex, :bamboo, :ecto, :bamboo_smtp],
      mod: {Riismi, []}]
   end
 
@@ -19,11 +19,10 @@ defmodule Riismi.Mixfile do
     [
       {:ecto, "~> 2.0.0-rc.6"},
       {:postgrex, "~> 0.11"},
-      {:earmark, "~> 0.2.1", only: :dev},
-      {:ex_doc, "~> 0.11.4", only: :dev},
       {:bamboo, "~> 0.6.0"},
       {:bamboo_smtp, "~> 1.0"},
-      {:gen_smtp, "~>0.11.0", override: true}
+      {:gen_smtp, "~>0.11.0", override: true},
+      {:exrm, "~> 1.0"}
     ]
   end
 end

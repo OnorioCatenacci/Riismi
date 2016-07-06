@@ -12,7 +12,8 @@ defmodule Riismi do
     import Supervisor.Spec, warn: false
 
     children = [
-      worker(Riismi.Repo, [])
+      worker(Riismi.Repo, []),
+      worker(Riismi.Timer, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

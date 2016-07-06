@@ -1,18 +1,22 @@
 defmodule Riismi.Db do
   require Ecto.Query
-
+  require Logger
+  
   @spec insert_new_records([%Riismi.Inventory{}])::no_return()
   def insert_new_records(record_list) when is_list(record_list) do
+    Logger.info("Testing #{length(record_list)} records against existing database records")
     Enum.each(record_list, fn(inventory_record) ->
       %Riismi.Inventory{machine_id: machine, sw_name: sw_name, sw_version: sw_version} = inventory_record
       
       cond do
         software_is_different_version?(machine, sw_name, sw_version) ->
+          Logger.info("Updating software version for #{machine}, #{sw_name}, #{sw_version}")
           update_software_version(machine, sw_name, sw_version)
         inventory_record_exists?(machine, sw_name, sw_version) ->
           get_inventory_record(machine, sw_name, sw_version)
           |> mark_record_as_old
         :otherwise ->
+          Logger.info("Inserting new record for #{machine}, #{sw_name}, #{sw_version}")
           Riismi.Repo.insert(inventory_record)
       end
       
@@ -21,8 +25,6 @@ defmodule Riismi.Db do
 
   @spec get_inventory_records(binary, binary)::Ecto.Query.t
   def get_inventory_records(machine, sw_name) when is_binary(machine) and is_binary(sw_name) do
-    IO.inspect "machine=" <> machine
-    IO.inspect "sw_name=" <> sw_name
     Riismi.Inventory
     |> Ecto.Query.where(machine_id: ^machine)
     |> Ecto.Query.where(sw_name: ^sw_name)

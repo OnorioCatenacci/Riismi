@@ -3,8 +3,6 @@ defmodule Riismi.Parser do
   @sw_version "sw_version"
   @name_literal "Name="
   @version_literal "Version="
-#  @name_regex ~r/^Name=(?<#{@sw_name}>([:w:|:w:-|:w:\+|\.:w:|\(:w:+\)]+ *)*)/
-#  @version_regex ~r/^Version=(?<#{@sw_version}>\d+.\d+.\d+(.\d*)?)\r/
   @time_regex ~r/(?<time>^\d{2}:\d{2} [A|P]M\s*$)/
   
   @spec get_software_name(binary)::binary
@@ -38,7 +36,7 @@ defmodule Riismi.Parser do
 
   @spec file_into_list_tailfirst(Path.t)::[binary]
   def file_into_list_tailfirst(file) do
-    :ok = :io.setopts(:standard_io, encoding: :utf8)
+    :ok = :io.setopts(:standard_io, encoding: :unicode)
     File.open!(file)
     |> IO.binstream(:line)
     |> Enum.reduce([], fn(line, acc) -> [line|acc] end)

@@ -1,4 +1,5 @@
 defmodule Riismi.File do
+  require Logger
   @file_directory Riismi.datafile_path
   @inventory_file_mask "*.txt"
 
@@ -10,6 +11,8 @@ defmodule Riismi.File do
     Riismi.Db.get_all_new_software
     |> Riismi.Email.new_software_email
     |> Riismi.Mailer.deliver_now
+    Riismi.Db.mark_all_records_as_old
+    {:ok,self()}
   end
 
   @spec move_inventory_file(binary)::no_return()
@@ -21,7 +24,7 @@ defmodule Riismi.File do
   @spec add_inventory_records([binary])::no_return()
   def add_inventory_records([]), do: nil
   def add_inventory_records([inventory_file|tail]) do
-    IO.puts inventory_file
+    Logger.info("Inventory_file is #{inventory_file}")
     Riismi.Parser.get_name_version_pairs(inventory_file)
     |> Riismi.Db.insert_new_records
     move_inventory_file(inventory_file)

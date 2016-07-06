@@ -1,13 +1,11 @@
 use Mix.Config
 
-config :riismi, Riismi.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  database: "riismi_dev",
-  username: "postgres",
-  password: "postgres"
+#config :riismi, Riismi.Repo,
+#  adapter: Ecto.Adapters.Postgres,
+#  database: "${RMI_DATABASE}",
+#  username: "${RMI_DBUSER}",
+#  password: "${RMI_DBPWD}"
 
-config :riismi,  datafile_path: System.get_env("RMI_DATA_PATH")
-config :riismi,  processedfile_path: System.get_env("RMI_PROCESSEDFILE_PATH")
-config :riismi, to_address: "ocatenacci@riis.com"
-config :riismi, from_address: "ocatenacci@riis.com"
-config :logger, level: :info
+#config :riismi,  datafile_path: "${RMI_DATA_PATH}"
+#config :riismi,  processedfile_path: "${RMI_PROCESSEDFILE_PATH}"
+#config :logger, level: "${RMI_LOGGER_LEVEL}"
