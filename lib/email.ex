@@ -38,8 +38,8 @@ defmodule Riismi.Email do
     #{body}
     """
     new_email
-    |> to("ocatenacci@riis.com")
-    |> from("ocatenacci@riis.com")
+    |> to(@to_address)
+    |> from(@from_address)
     |> subject("Newly Installed Software")
     |> html_body(html_for_email)
   end

@@ -10,5 +10,5 @@ $env:RMI_LOGGER_LEVEL="info"
 $env:RMI_INTERVAL_IN_HOURS=24
 $env:RMI_MAIL_SERVERUSER="ocatenacci@riis.com"
 $env:RMI_MAIL_SERVERPWD="yhglmpjpkkgscxjg"
-$env:RMI_TO_EMAIL_ADDRESS="ocatenacci@riis.com"
-$env:RMI_FROM_EMAIL_ADDRESS="ocatenacci@riis.com"
+$env:RMI_TO_EMAIL_ADDRESS="jnolan@riis.com"
+$env:RMI_FROM_EMAIL_ADDRESS="jnolan@riis.com"
